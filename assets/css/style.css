@@ -4,11 +4,16 @@
           --yellow: #e29f01;
 }
 
+@font-face {
+          font-family: fontTitle;
+          src: url('../fonts/UVN-Giay-Trang.ttf.woff');
+}
+
 * {
           margin: 0;
           padding: 0;
           box-sizing: border-box;
-          font-family: 'Rubik', sans-serif;
+          font-family: 'Gilda Display', serif;
 }
 
 body,
@@ -65,6 +70,7 @@ html {
           text-transform: uppercase;
           transition: .5s ease-in-out;
           margin-bottom: 20px;
+          font-family: fontTitle;
 }
 
 .info p {
