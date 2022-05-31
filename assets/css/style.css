@@ -14,9 +14,10 @@
 body,
 html {
           position: relative;
-          width: 100%;
-          height: 100vh;
+          overflow: hidden;
           background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
 }
 
 .container {
@@ -684,8 +685,8 @@ a {
                     z-index: 98;
                     color: #fff;
                     position: absolute;
-                    bottom: 1%;
-                    left: 85%;
+                    top: 2%;
+                    left: 75%;
                     transform: translateX(-50%);
                     width: 50px;
                     height: 50px;
