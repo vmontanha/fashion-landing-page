@@ -39,7 +39,7 @@ html {
           top: 0;
           right: 0;
           bottom: 0;
-          background: rgba(0, 0, 0, .7);
+          background: rgba(0, 0, 0, .75);
           z-index: 1;
 }
 
@@ -671,9 +671,9 @@ a {
           }
 
           .info p {
-                    font-size: 17px;
+                    font-size: 15px;
                     text-align: justify;
-                    margin-top: 10px;
+                    margin-top: 5px;
           }
 
           .info button {
@@ -718,7 +718,7 @@ a {
                     display: flex;
                     background-position: center;
                     background-size: cover;
-                    background-repeat: no-repeat;
+                    background-repeat: repeat;
           }
 
           .copyright {
