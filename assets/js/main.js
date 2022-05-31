@@ -69,10 +69,7 @@ let slideControl = document.querySelector('.slide-control')
 
 slideControl.onclick = (e) => {
           scrollSlide()
-          exerciseTwo()
 }
-
-
 
 openNav = () => {
           let nav = document.querySelector('.nav-overlay')
