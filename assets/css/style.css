@@ -62,10 +62,12 @@ html {
           line-height: 140px;
           text-transform: uppercase;
           transition: .5s ease-in-out;
+          margin-bottom: 20px;
 }
 
 .info p {
           text-align: justify;
+          font-size: 22px;
 }
 
 .info button {
@@ -306,7 +308,7 @@ html {
           z-index: 98;
           color: #fff;
           position: absolute;
-          left: 0%;
+          left: 2%;
           bottom: 10px;
           width: 100%;
           /* padding: 20px; */
@@ -321,8 +323,8 @@ a {
           z-index: 98;
           color: #fff;
           position: absolute;
-          bottom: 1%;
-          left: 85%;
+          bottom: 5%;
+          left: 50%;
           transform: translateX(-50%);
           width: 50px;
           height: 50px;
@@ -534,11 +536,18 @@ a {
 
 @media only screen and (max-width: 1440px) {
           .info {
-                    align-items: flex-start;
+                    align-items: center;
           }
 
           .info h1 {
-                    /* font-size: 110px; */
+                    font-size: 90px;
+                    text-align: left;
+                    margin-bottom: auto;
+          }
+
+          .info p {
+                    font-size: 18px;
+                    line-height: 22px;
                     text-align: left;
           }
 
@@ -668,5 +677,23 @@ a {
                     height: 80%;
                     transform: translateY(20%);
                     padding: 50px;
+          }
+
+          .slide-control {
+                    z-index: 98;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1%;
+                    left: 85%;
+                    transform: translateX(-50%);
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    border: 2px solid #fff;
+                    cursor: pointer;
+                    /* animation: zoom 2s ease infinite; */
           }
 }
