@@ -351,14 +351,14 @@ a {
 }
 
 .nav-overlay {
-          height: 200%;
+          height: 200vh;
           width: 0;
           position: fixed;
-          z-index: 101;
+          z-index: 99;
           left: 0;
           background-color: rgb(0, 0, 0);
           background-color: rgba(0, 0, 0, 1);
-          overflow: hidden;
+          overflow-y: hidden;
           transition: 0.5s;
 }
 
@@ -368,16 +368,15 @@ a {
 
 .nav-overlay-content {
           position: relative;
-          top: 15%;
+          top: 10%;
           width: 100%;
           text-align: center;
-          margin-top: 30px;
 }
 
 .nav-overlay a {
           padding: 8px;
           text-decoration: none;
-          font-size: 36px;
+          font-size: 18px;
           color: #818181;
           display: block;
           transition: 0.3s;
@@ -389,7 +388,7 @@ a {
 }
 
 .nav-overlay .closebtn {
-          position: absolute;
+          position: fixed;
           top: 20px;
           right: 45px;
           z-index: 999;
