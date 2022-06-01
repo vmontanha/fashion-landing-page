@@ -20,9 +20,8 @@ body,
 html {
           position: relative;
           overflow-x: hidden;
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
+          margin: 0;
+          padding: 0;
 }
 
 .container {
@@ -66,10 +65,20 @@ html {
 .info h1 {
           font-size: 150px;
           font-weight: 900;
+          line-height: 0px;
+          text-transform: uppercase;
+          transition: .5s ease-in-out;
+          margin-bottom: 5px;
+          font-family: fontTitle;
+}
+
+span {
+
+          font-weight: 900;
           line-height: 140px;
           text-transform: uppercase;
           transition: .5s ease-in-out;
-          margin-bottom: 20px;
+          margin-bottom: 5px;
           font-family: fontTitle;
 }
 
@@ -171,7 +180,7 @@ html {
           position: relative;
           width: 50%;
           height: 80%;
-          overflow: visible;
+          overflow: hidden;
 
 }
 
@@ -357,7 +366,7 @@ a {
 }
 
 .nav-overlay {
-          height: 200vh;
+          height: 205vh;
           width: 0;
           position: fixed;
           z-index: 99;
@@ -614,7 +623,7 @@ a {
 
           .info p {
                     font-size: 14px;
-                    padding: 10px 0px;
+                    padding: 0px 0px;
           }
 
           .info button {
@@ -661,9 +670,11 @@ a {
           .info h1 {
                     font-size: 63px;
                     line-height: 70px;
-
-
                     text-align: center;
+                    padding: 0;
+                    margin-bottom: -20px;
+                    margin-top: 5px;
+
           }
 
           #arquitetura {
@@ -673,7 +684,7 @@ a {
           .info p {
                     font-size: 15px;
                     text-align: justify;
-                    margin-top: 5px;
+                    margin-top: 0px;
           }
 
           .info button {
@@ -714,21 +725,24 @@ a {
           }
 
           .container {
-                    height: 200vh;
+                    height: 205vh;
                     display: flex;
                     background-position: center;
                     background-size: cover;
-                    background-repeat: repeat;
+                    background-repeat: no-repeat;
           }
 
           .copyright {
                     z-index: 98;
                     color: #fff;
                     position: absolute;
-                    left: 18%;
+                    left: 50%;
                     bottom: 10px;
                     width: 100%;
+                    transform: translate(-50%, 0);
+                    text-align: center;
                     /* padding: 20px; */
                     font-size: 13px;
           }
+
 }
