@@ -366,7 +366,7 @@ a {
 }
 
 .nav-overlay {
-          height: 205vh;
+          height: 230vh;
           width: 0;
           position: fixed;
           z-index: 99;
